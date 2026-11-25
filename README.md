@@ -5868,6 +5868,11 @@ and checking the program's stdout, stderr, and exit code.
    [cargo-watch](https://github.com/watchexec/cargo-watch) with `cargo install
    cargo-watch` and running `just watch test`.
 
+   Install [cargo-limit](https://github.com/cargo-limit/cargo-limit) with
+   `cargo install cargo-limit`. It provides the `cargo lrun`, `cargo ltest`,
+   and `cargo lcheck` subcommands used by `just build-book`, `just test`, and
+   `just check`, respectively.
+
 4. Add a failing test for your feature. Most of the time this will be an
    integration test which exercises the feature end-to-end. Look for an
    appropriate file to put the test in
